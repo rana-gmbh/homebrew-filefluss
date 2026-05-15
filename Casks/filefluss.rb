@@ -1,6 +1,6 @@
 cask "filefluss" do
-  version "1.1"
-  sha256 "c2d566c6005ce3b0a840d209ea8177c19c19a4b0e26182c3cf1225d26b85bf0d"
+  version "1.1.1"
+  sha256 "3a7adb10d5b9ba17070f1e9a01782269266310043285870f7ba7d22ce4190a6b"
 
   url "https://github.com/rana-gmbh/filefluss/releases/download/v#{version}/FileFluss-v#{version}.dmg"
   name "FileFluss"
