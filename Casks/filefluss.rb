@@ -12,8 +12,8 @@ cask "filefluss" do
   app "FileFluss.app"
 
   zap trash: [
-    "~/Library/Preferences/com.rana-gmbh.FileFluss.plist",
-    "~/Library/Caches/com.rana-gmbh.FileFluss",
     "~/Library/Application Support/com.rana-gmbh.FileFluss",
+    "~/Library/Caches/com.rana-gmbh.FileFluss",
+    "~/Library/Preferences/com.rana-gmbh.FileFluss.plist",
   ]
 end
