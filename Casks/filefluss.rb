@@ -7,6 +7,8 @@ cask "filefluss" do
   desc "Dual-panel file manager with multi-cloud support"
   homepage "https://github.com/rana-gmbh/filefluss"
 
+  auto_updates true
+
   depends_on macos: :sonoma
 
   app "FileFluss.app"
